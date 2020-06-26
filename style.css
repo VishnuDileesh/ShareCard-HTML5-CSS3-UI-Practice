@@ -11,3 +11,76 @@ body {
 	color: #1b1e2a;
 	height: 100vh;
 }
+
+.container {
+	background-color: white;
+	padding: 2.5em;
+	border-radius: 0.625em;
+	position: relative;
+	min-width: 460px;
+	box-shadow: 8px 8px 10px 5px #8c919c;
+}
+
+.container h1 {
+	font-weight: bold !important;
+}
+
+i.fa-times {
+	position: absolute;
+	top: 1.25em;
+	right: 1.25em;
+	color: #1b1e2a;
+}
+
+input[type="text"] {
+	border-radius: 50px;
+	border: 1px solid #8c919c;
+	padding: 20px 20px 20px 50px;
+	min-width: 380px;
+	font-weight: 600;
+	background-color: #f3fbfb;
+}
+
+i.fa-search {
+	position: absolute;
+	margin-top: 1.5rem;
+	margin-left: 20px;
+	color: #8c919c;
+}
+
+.container h5 {
+	font-weight: 600;
+}
+
+h5 {
+	margin-bottom: 0.8em;
+}
+
+.cards {
+	display: flex;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	padding: 12px;
+	border: 3px solid #f3fbfb;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+.card-img {
+	border-radius: 100%;
+	max-width: 50px;
+	margin-right: 10px;
+}
+
+.card-info h3 {
+	margin: auto;
+	font-size: 1rem;
+}
+
+.card-info p {
+	margin: auto;
+	font-size: 0.8rem;
+}
